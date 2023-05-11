@@ -38,7 +38,8 @@ const router = createBrowserRouter([
         {
           path: "contato",
           element: <Contatos></Contatos>
-        }
+        },
+        // 5 ROTAS ALINHADAS | ROTAS DINÂMICAS- IDENTIFICADOR UNICO PARA ACESSAR PAGINAS DE ALGO QUE FOI CARREGADO DIRETO DO BANCO DE DADOS
       
     ]
   }

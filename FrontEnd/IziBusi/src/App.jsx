@@ -7,12 +7,15 @@ import './App.css'
 //O outlet é o q ficará mudando, e em volta é possível colocar outras estruturas pra ser o footer, navegação e etc
 import { Outlet } from 'react-router-dom'
 
+//4 - Navegando entre paginas, Adicionand/importando componente Navbar
+import NavBar from './routes/components/navbar/Navbar'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div className='App'>
-    <p>navbar</p>
+    <NavBar></NavBar>
       <h1>
 
        Router
